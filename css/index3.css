@@ -54,7 +54,7 @@ nav.floating{
     align-items: center;
 }
 
-.first-view-text{
+.contact{
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
@@ -66,24 +66,19 @@ nav.floating{
     text-shadow: 1px 1px 10px #2c1b8a;
 }
 
-.first-view-text h1{
+.contact h1{
     font-size: 70px;
     line-height: 72px;
 }
 
-.first-view-text h2{
-    font-size: 35px;
-    line-height: 36px;
-}
-
-.first-view-text p{
+.contact p{
     font-size: 18px;
     margin-top: 20px;
 }
 
-.lead{
-    max-width: 1200px;
-    margin: 60px auto;
+.contact li{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /* メイン用スタイル ここまで */
 
