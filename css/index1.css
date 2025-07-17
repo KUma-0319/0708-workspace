@@ -77,6 +77,8 @@ nav.floating{
     background-size: cover;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .title h1{

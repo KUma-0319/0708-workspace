@@ -69,14 +69,24 @@ nav.floating{
 /* ヘッダー用のスタイル ここまで */
 
 /* メイン用のスタイル ここから */ 
-.main{
-    height: calc(100vh - 110px);
+.title{
+    height: 310px;
     background-image: url(../images/index/image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #2c1b8a;
 }
 
 .my-pr-text{
@@ -86,37 +96,27 @@ nav.floating{
     margin-right: auto;
     padding-left: 40px;
     padding-bottom: 80px;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #2c1b8a;
 }
 
 .my-pr-text p{
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 30px;
     line-height: 1.8;
 }
 
 .my-pr-text ul{
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
-.my-pr-text h1{
-    font-size: 50px;
-    line-height: 72px;
-}
-
-.my-pr-text h3{
-    font-size: 28px;
-    margin-top: 40px;
+.my-pr-text h2{
+    font-size: 32px;
+    margin-top: 32px;
     margin-bottom: 10px;
 }
 
-.first-view-text p{
-    font-size: 18px;
-    margin-top: 20px;
-}
 /* メイン用スタイル ここまで */
 
 /* フッターのスタイル ここから */

@@ -69,16 +69,24 @@ nav.floating{
 /* ヘッダー用のスタイル ここまで */
 
 /* メイン用のスタイル ここから */ 
-.main{
-    height: calc(100vh - 110px);
+.title{
+    height: 310px;
     background-image: url(../images/index/image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #2c1b8a;
 }
 
 .first-view-text{
@@ -86,33 +94,22 @@ nav.floating{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     padding-left: 40px;
     padding-bottom: 80px;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #2c1b8a;
+    text-align: center;
+    justify-content: center;
 }
 
 .first-view-text p{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 10px;
-}
-.first-view-text h1{
-    font-size: 70px;
-    line-height: 72px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
-.first-view-text h2{
-    font-size: 35px;
-    line-height: 36px;
-}
-
-
-.lead{
-    max-width: 1200px;
-    margin: 60px auto;
-}
 /* メイン用スタイル ここまで */
 
 /* フッターのスタイル ここから */
