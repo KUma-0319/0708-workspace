@@ -131,13 +131,6 @@ nav.floating{
 
 /* フッターのスタイル ここまで */
 
-/*
-.footer-logo{
-    display: block;
-    width: 235px;
-    margin-top: 90px;
-}
-
 @media (max-width: 800px) {
     .site-menu ul{
         display: block;
@@ -218,4 +211,3 @@ nav.floating{
         outline: none;
     }
 }
-*/
