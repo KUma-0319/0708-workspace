@@ -59,6 +59,7 @@ nav.floating{
     font-size: 32pt;
     font-weight: bold;
     color: #ffffff;
+    text-shadow: 1px 1px 10px #2c1b8a;
 }
 
 .carrer-text{
@@ -70,11 +71,24 @@ nav.floating{
     padding-bottom: 80px;
     color: black;
     font-weight: bold;
-    /*text-shadow: 1px 1px 10px #4b2c14;*/
+}
+
+.carrer-text p{
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.carrer-text p::after {
+    content: "";
+    display: block;
+    width: 49px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
 }
 
 .carrer-text li{
-    font-size: 36px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
