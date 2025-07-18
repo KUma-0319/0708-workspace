@@ -111,8 +111,12 @@ nav.floating{
 
 .first-view-text p{
     font-size: 30px;
-    margin-bottom: auto;
+    margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.first-view-text li{
+    font-size: 28px;
 }
 
 /* メイン用スタイル ここまで */
