@@ -112,9 +112,24 @@ nav.floating{
 }
 
 .my-pr-text h2{
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 32px;
     margin-bottom: 10px;
+}
+
+.my-pr-text h2::after {
+    content: "";
+    display: block;
+    width: 49px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.my-pr-text li{
+    margin-top: 30px;
+    list-style-type: disc; /* 点をつけたい場合 */
+    padding-left: 40px;    /* インデントを適度に */
 }
 
 /* メイン用スタイル ここまで */

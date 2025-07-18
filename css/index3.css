@@ -103,11 +103,16 @@ nav.floating{
     justify-content: center;
 }
 
+.first-view-text h2{
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
 .first-view-text p{
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: auto;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 /* メイン用スタイル ここまで */
