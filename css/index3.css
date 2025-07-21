@@ -146,13 +146,14 @@ nav.floating{
 /* フッターのスタイル ここまで */
 
 @media (max-width: 800px) {
-    .site-menu ul{
-        display: block;
-        text-align: center;
+    .site-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .site-menu li{
-        margin-top: 20px;
+        margin:0 5 px;
     }
 
     .header{
