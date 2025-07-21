@@ -163,11 +163,11 @@ nav.floating{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        font-size: 15px
     }
 
     .site-menu li{
         margin:0 5 px;
-        font-size: 15px;
     }
 
     .header{
@@ -180,12 +180,6 @@ nav.floating{
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
-    /*
-    .toggle-menu-botton{
-        display: block;
-        width: 44px;
-        height: 34px;
-    }*/
 
     .main{
         margin-top: 60px;
@@ -198,18 +192,4 @@ nav.floating{
     .copyright{
         margin-top: 50px;
     }
-    /*
-    .toggle-menu-button {
-        display: block;
-        width: 44px;
-        height: 34px;
-        background-image: url(../images/common/icon-menu.jpeg);
-        background-size: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: transparent;
-        border: none;
-        border-radius: 0;
-        outline: none;
-    }*/
 }
