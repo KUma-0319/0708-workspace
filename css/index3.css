@@ -66,10 +66,6 @@ nav.floating{
     font-weight: 400;
     font-style: normal;
 }
-/*
-.toggle-menu-button{
-    display: none;
-}*/
 
 /* ヘッダー用のスタイル ここまで */
 
@@ -174,6 +170,17 @@ nav.floating{
 
     .first-view-text{
         font-size: 25px;
+    }
+
+    .footer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        height: 60px;
+        z-index: 10;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 
     .copyright{
