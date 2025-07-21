@@ -66,6 +66,11 @@ nav.floating{
     font-weight: 400;
     font-style: normal;
 }
+
+.toggle-menu-button{
+    display: none;
+}
+
 /* ヘッダー用のスタイル ここまで */
 
 /* メイン用のスタイル ここから */ 
@@ -161,33 +166,6 @@ nav.floating{
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .header-inner{
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 100%;
-        position: relative;
-    }
-
-    .header-logo{
-        width: 100px;
-    }
-
-    .header-site-menu{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        color: #ffffff;
-        background-color: #736e62;
-        padding-top:30px;
-        padding-bottom: 50px;
-        display: none;
-    }
-
-    .header-site-menu.is-show{
-        display: block;
-    }
-
     .toggle-menu-botton{
         display: block;
         width: 44px;
@@ -198,10 +176,6 @@ nav.floating{
         padding-top: 50px;
     }
 
-    .footer-logo{
-        margin-top: 60px;
-    }
-
     .copyright{
         margin-top: 50px;
     }
@@ -210,7 +184,7 @@ nav.floating{
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(../images/common/icon-menu.png);
+        background-image: url(../images/common/icon-menu.jpeg);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
