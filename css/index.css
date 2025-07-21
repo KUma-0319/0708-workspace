@@ -152,7 +152,7 @@ nav.floating{
         left: 0;
         right: 0;
         background-color: #ffffff;
-        height: 50px;
+        height: 60px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
@@ -164,7 +164,6 @@ nav.floating{
     }*/
 
     .main{
-        padding-top: 50px;
         margin-top: 60px;
     }
 
