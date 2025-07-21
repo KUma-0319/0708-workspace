@@ -66,10 +66,10 @@ nav.floating{
     font-weight: 400;
     font-style: normal;
 }
-
+/*
 .toggle-menu-button{
     display: none;
-}
+}*/
 
 /* ヘッダー用のスタイル ここまで */
 
@@ -169,7 +169,7 @@ nav.floating{
     }
 
     .header{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
@@ -178,12 +178,12 @@ nav.floating{
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
-
+    /*
     .toggle-menu-botton{
         display: block;
         width: 44px;
         height: 34px;
-    }
+    }*/
 
     .main{
         padding-top: 50px;
@@ -192,7 +192,7 @@ nav.floating{
     .copyright{
         margin-top: 50px;
     }
-
+    /*
     .toggle-menu-button {
         display: block;
         width: 44px;
@@ -205,5 +205,5 @@ nav.floating{
         border: none;
         border-radius: 0;
         outline: none;
-    }
+    }*/
 }
