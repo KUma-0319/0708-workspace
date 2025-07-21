@@ -169,7 +169,7 @@ nav.floating{
     }
 
     .header{
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;
@@ -187,6 +187,7 @@ nav.floating{
 
     .main{
         padding-top: 50px;
+        margin-top: 60px;
     }
 
     .copyright{
